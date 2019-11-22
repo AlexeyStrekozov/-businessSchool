@@ -45,6 +45,10 @@ h2 {
 .nav {
     background-color: #34495e;
 }
+.nav-logo {margin-top: 20px;}
+.nav-logo>img {
+    width: 100%;
+}
 .nav-bar>ul {
     display: flex;
     text-align: right;
