@@ -1,9 +1,10 @@
 openPopUp($('.clickRequest'));
 openPopUp($('.forWhom-button-btn'));
 openPopUp($('.navRequest'));
-scrollSlow($("#buttonAdvantages"), $('.advantages'));
+scrollSlow($("#buttonAdvantages"), $('.nav'));
 scrollSlow($(".link2"), $(".forWhom"));
 scrollSlow($(".link1"), $(".advantages"));
+scrollSlow($(".nav-logo"), $("html"));
 
 var navTop = $(".advantages").offset();
 
@@ -25,7 +26,6 @@ function scrollSlow(element, elementScroll){
   });
 }
 // function
-
   $(window).scroll(function(){                              // отслеживаем событие
     if ($(window).scrollTop() >= navTop['top']) {
       console.log(100);
