@@ -4,11 +4,21 @@ h2 {
 }
 /* main */
 .main {
+    position: relative;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #eb5556;
+}
+.main::before{
+  content: "";
+  position: absolute;
+  width: 61%;
+  height: 100%;
+  background-color: rgba(195, 147, 103, 0.5);
+  left: 0;
+  transform: skewX(-10deg) translateX(-140px);
 }
 .main-wrap {
     width: 100%;
@@ -35,12 +45,18 @@ h2 {
     margin-top: 1em;
 }
 .btn {
-    border: 2px solid #000;
+    outline: none;
+    border: 2px solid #fff;
     padding: 13px 25px;
     margin: 5px;
     color: #fff;
+    cursor: pointer;
 }
-/* main */
+.btn:hover{
+  background-color: #fff;
+}
+ /* main */
+
 /* nav */
 .nav {
     background-color: #34495e;
@@ -58,14 +74,20 @@ h2 {
     text-transform: uppercase;
     padding: 10px;
     list-style: none;
-}
-.nav-bar>ul>li>a {
     color: #fff;
+    cursor: pointer;
+}
+.fix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 998;
 }
 /* nav */
 /* advantages */
 .advantages {
     background-color: #f3f3f3;
+    padding-top: 50px;
     padding-bottom: 70px;
 }
 .advantages-icon {
@@ -112,6 +134,7 @@ h2 {
     margin: 36px 0 0 0;
 }
 .forWhom-button-btn {
+    outline: none;
     background-color: #f36363;
     border: 2px solid #f36363;
     -webkit-transition: all 0.2s;
@@ -124,6 +147,7 @@ h2 {
     padding: 16px 22px;
 }
 /* forWhom */
+
 /* competition */
 .competition {
     padding: 80px 0;
@@ -139,3 +163,78 @@ h2 {
     margin-top: 40px;
 }
 /* competition */
+
+/* popUp */
+.popUp {
+  display: none;
+  top: 0;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  padding-top: 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+}
+.popUp-block {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  height: 70vh;
+  background-color: #fff;
+}
+
+.popUp-block-wrap {
+  height: 85%;
+  overflow: auto;
+}
+
+.popUp-block-wrap::-webkit-scrollbar {
+  width: 8px;
+}
+.popUp-block-wrap::-webkit-scrollbar-thumb
+{
+    background-color: rgba(195, 147, 103, 1);
+    border-radius: 8px;
+}
+
+.popUp-block-title>h1 {
+  font-size: 32px;
+}
+.popUp-close {
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 2px;
+  right: 11px;
+  z-index: 999;
+}
+.necessarily {
+  color: red;
+}
+.popUp-block-wrap>form>p {
+  margin-bottom: 5px;
+}
+.popUp-block-wrap>form>input {
+    outline: none;
+    margin-bottom: 10px;
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #000;
+    transition: 0.5s;
+}
+.popUp-block-wrap>form>input:last-child {
+  border-bottom: 0;
+}
+.popUp-block-wrap>form>input:focus {
+  border-bottom: 1px solid red;
+}
+.btnSumbit {
+  background-color: #eb5556;
+  outline: none;
+}
+.btnSumbit:hover {
+  background-color: rgba(195, 147, 103, 1);
+  color: #fff;
+}
+/* popUp */
