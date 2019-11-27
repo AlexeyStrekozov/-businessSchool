@@ -23,7 +23,7 @@ h2 {
   position: absolute;
   width: 61%;
   height: 100%;
-  background-color: rgba(200, 149, 105, 0.8);
+  background-color: rgba(200, 149, 105, 1);
   left: 0;
   transform: skewX(-10deg) translateX(-140px);
 }
@@ -50,20 +50,6 @@ h2 {
 .main-button {
     text-align: center;
     margin-top: 1em;
-}
-.main-logo {
-  width: 90%;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 0;
-  left: 4%;
-}
-.main-logo img {
-  width: 300px;
-  height: auto;
-}
-.main-logo-element {
-  padding-bottom: 21px;
 }
 .btn {
     outline: none;
