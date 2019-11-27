@@ -51,6 +51,20 @@ h2 {
     text-align: center;
     margin-top: 1em;
 }
+.main-logo {
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 4%;
+}
+.main-logo img {
+  width: 300px;
+  height: auto;
+}
+.main-logo-element {
+  padding-bottom: 21px;
+}
 .btn {
     outline: none;
     border: 2px solid #fff;
