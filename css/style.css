@@ -16,14 +16,14 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eb5556;
+    background-color: rgba(238, 82, 56, 1);
 }
 .main::before{
   content: "";
   position: absolute;
   width: 61%;
   height: 100%;
-  background-color: rgba(195, 147, 103, 0.5);
+  background-color: rgba(200, 149, 105, 0.8);
   left: 0;
   transform: skewX(-10deg) translateX(-140px);
 }
@@ -66,7 +66,7 @@ h2 {
 
 /* nav */
 .nav {background-color: #34495e; padding: 10px 0;}
-.nav-logo {cursor: pointer;}
+.nav-logo {cursor: pointer; padding: 10px 0}
 .nav-logo>img {width: 100%;}
 .link3  {width: 250px;}
 .nav-bar>ul {
@@ -87,6 +87,13 @@ h2 {
   width: 100%;
   z-index: 998;
 }
+.navRequest {
+  color: #ee5238!important;
+  transition: 0.5s;
+}
+.navRequest:hover {
+  text-decoration: underline;
+}
 /* nav */
 /* advantages */
 .advantages {
@@ -105,7 +112,8 @@ h2 {
     color: #6d6d6d;
 }
 .advantages-block-text>p {
-    line-height: 1.9em;
+    text-align: left;
+    line-height: 1.4em;
     font-size: 1.2em;
 }
 .advantages-block-text-title {
