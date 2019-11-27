@@ -28,7 +28,6 @@ function scrollSlow(element, elementScroll){
 // function
   $(window).scroll(function(){                              // отслеживаем событие
     if ($(window).scrollTop() >= navTop['top']) {
-      console.log(100);
         $(".nav").addClass("fix");                 // ставим условие
     } else {
       $(".nav").removeClass("fix");

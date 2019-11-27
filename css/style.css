@@ -55,7 +55,7 @@ h2 {
     outline: none;
     border: 2px solid #fff;
     padding: 13px 25px;
-    margin: 5px;
+    margin: 7px 25px;
     color: #fff;
     cursor: pointer;
 }
@@ -183,7 +183,26 @@ h2 {
     margin-top: 40px;
 }
 /* competition */
+/* results */
+.results {
+  padding: 40px 0;
+}
+.results-data {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 
+.results-left {
+  width: 300px;
+  float: left;
+  margin: 7px 7px 7px 0;
+}
+.results-right {
+  width: 300px;
+  float: right;
+  margin: 7px 7px 7px 0;
+}
+/* results */
 /* footer */
 .footer {
   padding: 20px;
