@@ -51,6 +51,15 @@ h2 {
     text-align: center;
     margin-top: 1em;
 }
+.main-text_sup {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
 .btn {
     outline: none;
     border: 2px solid #fff;
