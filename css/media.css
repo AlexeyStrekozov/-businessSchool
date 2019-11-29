@@ -1,0 +1,55 @@
+@media screen and (max-width: 992px) {
+  .main-title {
+    font-size: 3em;
+  }
+  .main-text>p {
+    font-size: 1em;
+  }
+  .link3 {
+    width: 100%;
+  }
+  .nav-bar>ul>li {
+    padding: 3px;
+    font-size: 0.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .advantages-block-text p{
+    font-size: 15px;
+  }
+  .advantages-block-text-title {
+    font-size: 20px;
+  }
+  .forWhom-icon {
+    width: 120px;
+  }
+  .forWhom-text {
+    font-size: 16px
+  }
+  .footer-feedback {
+    font-size: 11px;
+  }
+  .all-link {
+    font-size: 10px;
+  }
+  .footer-social>a>img {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-title {
+    font-size: 30px;
+  }
+  .main-text_sup {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .nav>ul {
+    padding: 0!important;
+  }
+}
