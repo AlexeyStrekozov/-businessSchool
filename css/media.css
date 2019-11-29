@@ -49,7 +49,45 @@
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .nav>ul {
-    padding: 0!important;
+  .nav-bar {
+    margin-top: 10px;
   }
+  .nav-bar>ul {
+    padding: 0!important;
+    font-size: 15px
+  }
+  .nav-logo {
+    padding: 10px 12px;
+  }
+  .advantages-title h2 {
+    font-size: 26px;
+  }
+  .forWhom-block>.row>div {
+    margin:10px 0;
+  }
+  .footer-social{
+    margin-left: 50px;
+  }
+  .popUp-block {
+    width: 100%;
+  }
+  .popUp-block-title>h1 {
+    text-align: center;
+    font-size: 25px;
+    padding-right: 20px;
+  }
+  .popUp-block-wrap {
+    height: 80%;
+  }
+  .popUp-block-wrap>form>p {
+    width: 100%;
+  }
+  .btnSumbit {
+    margin: 0 auto;
+    width: 180px!important;
+  }
+  .xs-logo {
+    width: 50%;
+  }
+
 }
